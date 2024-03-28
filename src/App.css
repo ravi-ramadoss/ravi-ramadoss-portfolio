@@ -1,38 +1,77 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* light grey background */
+  color: #333; /* dark grey text */
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff; /* white background for the container */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, h2 {
+  color: #333; /* dark grey headers */
+}
+
+.skill-item {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd; /* light grey border */
+  border-radius: 5px;
+  background: #f9f9f9; /* light grey background for each skill item */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+.skills-panel {
+  margin-bottom: 20px;
+}
+
+
+.project-boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.project-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* or use min-width if you want it to be able to shrink */
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* add this line to add a border */
 }
 
-.App-link {
-  color: #61dafb;
+.project-image {
+  width: 200px;
+  margin: 10px; /* add this line to add a margin */
+  align-self: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project-image img {
+  width: auto;
+  height: 200px;
+}
+.project-details {
+  flex-grow: 1;
+  align-self: flex-end;
+  word-wrap: break-word; /* this will prevent the text from overflowing */
 }
