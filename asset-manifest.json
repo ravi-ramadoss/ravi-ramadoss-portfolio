@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/ravi-ramadoss-portfolio/static/css/main.2fcce348.css",
-    "main.js": "/ravi-ramadoss-portfolio/static/js/main.83449b45.js",
+    "main.css": "/ravi-ramadoss-portfolio/static/css/main.cfe3f4fe.css",
+    "main.js": "/ravi-ramadoss-portfolio/static/js/main.df94f975.js",
     "static/js/453.023f6d15.chunk.js": "/ravi-ramadoss-portfolio/static/js/453.023f6d15.chunk.js",
     "static/media/openain_rag.jpeg": "/ravi-ramadoss-portfolio/static/media/openain_rag.e3fc25a88c59e4839223.jpeg",
+    "static/media/demo.png": "/ravi-ramadoss-portfolio/static/media/demo.e4ea85d20d9290f3643b.png",
+    "static/media/GitHub-logo.png": "/ravi-ramadoss-portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
     "index.html": "/ravi-ramadoss-portfolio/index.html",
-    "main.2fcce348.css.map": "/ravi-ramadoss-portfolio/static/css/main.2fcce348.css.map",
-    "main.83449b45.js.map": "/ravi-ramadoss-portfolio/static/js/main.83449b45.js.map",
+    "main.cfe3f4fe.css.map": "/ravi-ramadoss-portfolio/static/css/main.cfe3f4fe.css.map",
+    "main.df94f975.js.map": "/ravi-ramadoss-portfolio/static/js/main.df94f975.js.map",
     "453.023f6d15.chunk.js.map": "/ravi-ramadoss-portfolio/static/js/453.023f6d15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fcce348.css",
-    "static/js/main.83449b45.js"
+    "static/css/main.cfe3f4fe.css",
+    "static/js/main.df94f975.js"
   ]
 }
