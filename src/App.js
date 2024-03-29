@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import logo from './images/openain_rag.jpeg';
 import github_logo from './images/GitHub-logo.png'
 import projects from './projects';
 import demo from './images/demo.png';
+const images = require.context('../public/images', true);
+
 
 function App() {
   const [skills, setSkills] = useState({});
@@ -52,7 +53,8 @@ function App() {
           ).map((project, index) => (
             <div key={index} className="project-box">
               <div className="project-image">
-                <img src={logo} alt={project.name} />
+
+                <img src={images(`./${project.image_name}`)} alt={project.name} />
               </div>
               <div className="project-details">
                 <h3>{project.name}</h3>
