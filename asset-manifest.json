@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/ravi-ramadoss-portfolio/static/css/main.cfe3f4fe.css",
-    "main.js": "/ravi-ramadoss-portfolio/static/js/main.df94f975.js",
+    "main.js": "/ravi-ramadoss-portfolio/static/js/main.61add8f2.js",
     "static/js/453.023f6d15.chunk.js": "/ravi-ramadoss-portfolio/static/js/453.023f6d15.chunk.js",
-    "static/media/openain_rag.jpeg": "/ravi-ramadoss-portfolio/static/media/openain_rag.e3fc25a88c59e4839223.jpeg",
+    "static/media/openai_rag.jpeg": "/ravi-ramadoss-portfolio/static/media/openai_rag.e3fc25a88c59e4839223.jpeg",
+    "static/media/penske_node.jpeg": "/ravi-ramadoss-portfolio/static/media/penske_node.248e1c6f985ab9e9050e.jpeg",
     "static/media/demo.png": "/ravi-ramadoss-portfolio/static/media/demo.e4ea85d20d9290f3643b.png",
     "static/media/GitHub-logo.png": "/ravi-ramadoss-portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
     "index.html": "/ravi-ramadoss-portfolio/index.html",
     "main.cfe3f4fe.css.map": "/ravi-ramadoss-portfolio/static/css/main.cfe3f4fe.css.map",
-    "main.df94f975.js.map": "/ravi-ramadoss-portfolio/static/js/main.df94f975.js.map",
+    "main.61add8f2.js.map": "/ravi-ramadoss-portfolio/static/js/main.61add8f2.js.map",
     "453.023f6d15.chunk.js.map": "/ravi-ramadoss-portfolio/static/js/453.023f6d15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfe3f4fe.css",
-    "static/js/main.df94f975.js"
+    "static/js/main.61add8f2.js"
   ]
 }
