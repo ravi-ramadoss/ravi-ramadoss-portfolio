@@ -33,12 +33,6 @@ h1, h2 {
   background: #f9f9f9; /* light grey background for each skill item */
 }
 
-.skills-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
 .intro {
   margin-bottom: 20px;
 }
@@ -75,3 +69,33 @@ h1, h2 {
   align-self: flex-end;
   word-wrap: break-word; /* this will prevent the text from overflowing */
 }
+
+.dangerousHTML {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* space between boxes */
+}
+
+.skill-box {
+  padding: 5px 10px;
+  border: 0.5px solid #000;
+  font-size: 0.8em; /* adjust as needed */
+}
+
+.githubUrl {
+  text-align: left;
+  /*border: 0.5px solid #000;*/
+}
+
+.live-demo{
+  text-align: left;
+  /*border: 0.5px solid #000;*/
+}
+
